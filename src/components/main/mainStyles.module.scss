@@ -1,0 +1,154 @@
+.main {
+  flex-basis: 80% !important;
+  font-size: larger;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid rgba(192, 192, 192, 0.4);
+}
+header {
+  background-color: #f8f8f8;
+  border-bottom: 2px solid rgba(192, 192, 192, 0.4);
+}
+.notification {
+  width: 8%;
+  padding: 0.5rem 0rem;
+  justify-content: center;
+//   border-bottom: 2px solid rgba(192, 192, 192, 0.4);
+  border-right: 2px solid rgba(192, 192, 192, 0.4);
+  ul {
+    padding: 0px;
+    margin: 0px;
+  }
+  li {
+    &:first-child {
+      color: red;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+  }
+}
+.date {
+  width: 15%;
+  padding: 1rem 0.5rem;
+}
+.profile {
+  & svg {
+    width: 50px;
+    height: 50px;
+    color:#dc3545;
+  }
+}
+.icontainer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: silver;
+  margin-right: 0.5rem;
+  & svg {
+    width: 29px;
+    height: 13px;
+    color: white;
+  }
+}
+.weather {
+  width: 40%;
+}
+.inputContainer {
+  width: 35%;
+  position: relative;
+  flex-wrap: wrap;
+  & input {
+    direction: rtl;
+    width: 100%;
+    outline: 0px;
+    border: 2px solid rgba(192, 192, 192, 0.4);
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-top: 28px;
+    &::placeholder {
+       padding-right: 1.5rem; 
+    }
+  }
+  & a{
+    text-decoration: none;
+    color: silver;
+  }
+  .magnifier {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 4px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+  }
+  .mic{
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 4px;
+    position: absolute;
+    box-sizing: border-box;
+    top: 50%;
+    right: 4px;
+    transform: translateY(-50%);
+    margin-left: 5px;
+  }
+}
+.wrapper{
+    color:silver;
+}
+.container{
+    width: 71.5%;
+    color: silver;
+    
+}
+.lineIcon{
+    & svg{
+        width: 1em;
+        height: 1em;
+        border:1px solid silver
+    }
+}
+.label{
+    width: 500px;
+    display: flex;
+    overflow:auto;
+    margin-left:49rem;
+    justify-content: flex-end;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+   & span{
+     width: 80px;
+     height: 36px;
+     padding: 5px 4px;
+     margin-left: 4px;
+   }
+}
+.justify{
+    top:50%;
+    left:50%;
+    width: 18px !important;
+    height: 18px !important;
+    border-radius: 50% !important;
+}
+.picture{
+    width: 600px;
+    & div{
+        width: 100px;
+        height: 100px;
+        background-color: silver;
+        border-radius: 10px;
+    }
+}
+.pagination{
+    width: 400px;
+    
+}

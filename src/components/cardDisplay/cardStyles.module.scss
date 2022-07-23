@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.cardContainer{
+    flex-basis: 25%;
+    border: 2px solid rgba(192, 192, 192, 0.4);
+    text-align: right;
+    border-radius: 20px;
+    padding: 0rem 1.3rem;
+    & p{
+        padding: 0%;
+        margin: 0%;
+    }
+}
+.imgContainer{
+    background-image: url("../../../public/Assets/Images/1.png");
+    width:220px;
+    height: 200px;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
